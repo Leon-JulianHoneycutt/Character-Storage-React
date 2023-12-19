@@ -110,7 +110,7 @@ function App() {
       ATK: "∞",
       Special: 'Eraser',
       image: 'images/Doodle-Bob.jpg',
-      Age: "?",
+      Age: 0,
     },
     {
       id: nanoid(),
@@ -137,7 +137,7 @@ function App() {
       ATK: 99,
       Special: '2D',
       image: 'images/Henry.jpg',
-      Age: "?",
+      Age: 0,
     },
     {
       id: nanoid(),
@@ -155,7 +155,7 @@ function App() {
       ATK: 1000,
       Special: 'malevolent shrine',
       image: 'images/Sukuna.jpg',
-      Age: "1000+",
+      Age: 1000,
     },
     {
       id: nanoid(),
