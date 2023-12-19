@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  font-family:'Times New Roman', Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+img{max-width: 300px;}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100%{
+    transform: translateY(0);
+  }
+  40%{
+    transform: translateY(-30px);
+  }
+
+  60%{
+    transform: translateY(-15px);
+  }
+}
+
+.bouncy:hover{
+  animation: bounce 1.3s ease infinite;
+  animation-delay: .3s;
+}
+
+#cardOuter{
+  border-radius: 15%;
+  box-shadow: 10px 10px 10px 10px #384D48;
+  border: thin solid #ACAD94;
+  background-color:  #E2E2E2;
+  padding: 5em;
+  color: black;
+}
+
+#searchOuter{
+  border-radius: 5%;
+  box-shadow: 5px 5px 5px 5px #D62828;
+  border: thin solid #ACAD94;
+  background-color: #E2E2E2;
+  padding: 5em;
+  color: red;
+}

@@ -1,0 +1,28 @@
+#addStick{
+  border-radius: 5%;
+  box-shadow: 5px 5px 5px 5px #6AB547;
+  border: thin solid #ACAD94;
+  background-color: #E2E2E2;
+  padding: 3em;
+}
+#addBtn{
+  text-align: center;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100%{
+    transform: translateY(0);
+  }
+  40%{
+    transform: translateY(-30px);
+  }
+
+  60%{  
+    transform: translateY(-10px);
+  }
+}
+
+h3:hover .bouncy{
+  animation: bounce 1.3s ease infinite;
+  animation-delay: .3s;
+}
