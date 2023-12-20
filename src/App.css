@@ -3,6 +3,8 @@ body{
   font-family:'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(/Character-Storage/public/images/Jellyfish\ Wallpaper\ in\ Black\ by\ 17\ Patterns.jpg);
+  background-repeat: no-repeat;
 }
 
 code{
